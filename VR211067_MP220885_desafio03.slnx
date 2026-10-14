@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="src/Pedidos.Api/Pedidos.Api.csproj" />
+  <Project Path="src/Pedidos.Application/Pedidos.Application.csproj" />
+  <Project Path="src/Pedidos.Domain/Pedidos.Domain.csproj" />
+  <Project Path="src/Pedidos.Infrastructure/Pedidos.Infrastructure.csproj" />
+  <Project Path="tests/Pedidos.Tests/Pedidos.Tests.csproj" />
+</Solution>

@@ -1,0 +1,11 @@
+services:
+  pedidos-api:
+    build: .
+    ports:
+      - "8080:8080"
+    volumes:
+      - pedidos-data:/app/data
+    environment:
+      ConnectionStrings__Pedidos: Data Source=/app/data/pedidos.db
+volumes:
+  pedidos-data:

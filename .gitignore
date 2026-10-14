@@ -1,0 +1,9 @@
+bin/
+obj/
+.vs/
+*.db
+*.db-shm
+*.db-wal
+*.pdf
+**/data/
+docx_render_before/
